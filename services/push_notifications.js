@@ -2,7 +2,7 @@ import { Permissions, Notifications } from 'expo';
 import { AsyncStorage } from 'react-native';
 import axios from 'axios';
 
-const PUSH_ENDPOINT = 'http://rallycoding.herokuapp.com/api/tokens'
+const PUSH_ENDPOINT = ''
 
 export default async () => {
   let previousToken = await AsyncStorage.getItem('pushtoken');
